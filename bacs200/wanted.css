@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+background-color: burlywood;
+    margin: 25px;
+}
+header > h1{
+    font-size: 500%;
+}
+h2 span{
+font-family: cursive;
+}
+header{
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(70, 66, 66);
+border: solid 5px black;
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgb(70, 66, 66);
+}
+aside{
+    font-size: 200%;
+    text-align: left;
+    border: solid 4px darkgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ float: left;   
+ padding: 2em;
+}
+main{
+    text-align: center;
+}
+section{
+    font-size: 120%;
+    text-align: right;
+    border: solid 4px gray;
+    font-family: sans-serif;
+    float: right;
+    padding: 2em;
+    background-color: cornsilk;
+}
+img{
+    border: 5pt solid black;
+    box-shadow: 8px 8px 14px antiquewhite;
+}
+footer{
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
