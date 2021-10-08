@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-background-color: burlywood;
+background-color: #C38945;
     margin: 25px;
 }
 header > h1{
@@ -12,7 +12,7 @@ font-family: cursive;
 header{
     font-size: larger;
     text-align: center;
-    background-color: rgb(70, 66, 66);
+    background-color: #281E18;
 border: solid 5px black;
 border-radius: 10px;
 box-shadow: 2px 2px 5px rgb(70, 66, 66);
@@ -20,10 +20,15 @@ box-shadow: 2px 2px 5px rgb(70, 66, 66);
 aside{
     font-size: 200%;
     text-align: left;
-    border: solid 4px darkgray;
+    border: solid 8px #281E18;
+    background-color: #D1A879;
+    border-radius: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  float: left;   
  padding: 2em;
+}
+aside > h2{
+    background-color: transparent;
 }
 main{
     text-align: center;
@@ -31,14 +36,18 @@ main{
 section{
     font-size: 120%;
     text-align: right;
-    border: solid 4px gray;
+    border: solid 4px #BC9A76;
+    border-radius: 5pt;
     font-family: sans-serif;
     float: right;
     padding: 2em;
-    background-color: cornsilk;
+    background-color: #AE773F;
+}
+section >h2, ul, li{
+    background-color: transparent;
 }
 img{
-    border: 5pt solid black;
+    border: 5pt solid #281E18;
     box-shadow: 8px 8px 14px antiquewhite;
 }
 footer{
